@@ -11,14 +11,14 @@ def main():
         cc_repo = path.join(context.third_party_dir, 'eagle-gold-IRL')
         send_src = path.join(cc_repo, 'sender-receiver/sender-receiver/sender_receiver/envs', 'example_xentropy.py')
         recv_src = path.join(cc_repo, 'sender-receiver/sender-receiver/sender_receiver/envs', 'run_receiver.py')
-        model_name = 'model-xentropy-0.01decay10iter-770iter.pt' # change - also look at directories involved
+        model_name = 'model-xentropy-670iter-rw209.pt'#'model-xentropy-0.01decay10iter-770iter.pt' # change - also look at directories involved
         #dependencies = path.join(cc_repo, 'dependencies.sh')
         if args.option == 'setup':
             #check_call(dependencies, shell = True)
             return
 
         if args.option == 'sender':
-            cmd = ['python3', send_src, args.port, '--model=' + model_name] # change
+            cmd = ['python3', send_src, args.port, '--model=' + model_name, '--expert', 'synthesizedBBR'] # change
             subprocess.check_output(cmd)
             return
 
