@@ -8,7 +8,7 @@ import context
 
 def main():
         args = arg_parser.sender_first()
-        cc_repo = path.join(context.third_party_dir, 'eagle-gold-IRL')
+        cc_repo = path.join(context.third_party_dir, 'gold-IRL')
         send_src = path.join(cc_repo, 'sender-receiver/sender-receiver/sender_receiver/envs', 'example_dqn.py') # may have to give model params as arguments
         recv_src = path.join(cc_repo, 'sender-receiver/sender-receiver/sender_receiver/envs', 'run_receiver.py')
         model_name = 'model-DQN-357iter-rw21402.pt'#'model-xentropy-0.01decay10iter-770iter.pt' # change - also look at directories involved
