@@ -54,3 +54,7 @@
 	path = third_party/fillp-sheep
 	url = https://github.com/fillthepipe/fillp-sheep.git
 	ignore = dirty
+[submodule "third_party/gold-IRL"]
+	path = third_party/gold-IRL
+	url = https://github.com/holderlayne/gold-IRL.git
+	ignore = dirty
