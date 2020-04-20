@@ -75,3 +75,35 @@ schemes:
     name: Eagle DQN Test
     color: blue
     marker: '+'
+  eagle-cross-entropy-001:
+    name: Eagle Cross-Entropy 001
+    color: gold
+    marker: 'x'
+  eagle-cross-entropy-002:
+    name: Eagle Cross-Entropy 002
+    color: black
+    marker: 'x'
+  eagle-dqn-001:
+    name: Eagle DQN 001
+    color: red
+    marker: '+'
+  eagle-dqn-002:
+    name: Eagle DQN 002
+    color: green
+    marker: '+'
+  eagle-dqn-003:
+    name: Eagle DQN 003
+    color: blue
+    marker: '+'
+  eagle-dqn-004:
+    name: Eagle DQN 004
+    color: red
+    marker: '*'
+  eagle-dqn-005:
+    name: Eagle DQN 005
+    color: green
+    marker: '*'
+  eagle-dqn-006:
+    name: Eagle DQN 006
+    color: blue
+    marker: '*'
